@@ -13,7 +13,6 @@
 		3E9ED0D61BB244F200D5F4CF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E9ED0D51BB244F200D5F4CF /* Images.xcassets */; };
 		3E9ED0D91BB244F200D5F4CF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E9ED0D71BB244F200D5F4CF /* LaunchScreen.xib */; };
 		3E9ED0E51BB244F200D5F4CF /* Assignement_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9ED0E41BB244F200D5F4CF /* Assignement_2Tests.swift */; };
-		3E9ED1201BB3A45300D5F4CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9ED11F1BB3A45300D5F4CF /* ViewController.swift */; };
 		3E9ED1241BB3AE3000D5F4CF /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9ED1231BB3AE3000D5F4CF /* IntroViewController.swift */; };
 		3E9ED1261BB3AE4B00D5F4CF /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9ED1251BB3AE4B00D5F4CF /* SignInViewController.swift */; };
 		3E9ED1281BB3B76600D5F4CF /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9ED1271BB3B76600D5F4CF /* WelcomeViewController.swift */; };
@@ -43,7 +42,6 @@
 		3E9ED0DE1BB244F200D5F4CF /* Assignement_2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Assignement_2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E9ED0E31BB244F200D5F4CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E9ED0E41BB244F200D5F4CF /* Assignement_2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignement_2Tests.swift; sourceTree = "<group>"; };
-		3E9ED11F1BB3A45300D5F4CF /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../../BunnyMove/BunnyMove/ViewController.swift; sourceTree = "<group>"; };
 		3E9ED1231BB3AE3000D5F4CF /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IntroViewController.swift; path = ../IntroViewController.swift; sourceTree = "<group>"; };
 		3E9ED1251BB3AE4B00D5F4CF /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignInViewController.swift; path = ../SignInViewController.swift; sourceTree = "<group>"; };
 		3E9ED1271BB3B76600D5F4CF /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
@@ -134,7 +132,6 @@
 				3E9ED1311BB7818F00D5F4CF /* SettingViewController.swift */,
 				3E9ED12F1BB7806100D5F4CF /* FeedViewController.swift */,
 				3E9ED1271BB3B76600D5F4CF /* WelcomeViewController.swift */,
-				3E9ED11F1BB3A45300D5F4CF /* ViewController.swift */,
 				3E9ED1231BB3AE3000D5F4CF /* IntroViewController.swift */,
 				3E9ED1251BB3AE4B00D5F4CF /* SignInViewController.swift */,
 			);
@@ -247,7 +244,6 @@
 				3E9ED1281BB3B76600D5F4CF /* WelcomeViewController.swift in Sources */,
 				3E9ED1241BB3AE3000D5F4CF /* IntroViewController.swift in Sources */,
 				3E9ED1321BB7818F00D5F4CF /* SettingViewController.swift in Sources */,
-				3E9ED1201BB3A45300D5F4CF /* ViewController.swift in Sources */,
 				3E9ED12A1BB72F2100D5F4CF /* Common.swift in Sources */,
 				3E9ED0CF1BB244F200D5F4CF /* AppDelegate.swift in Sources */,
 				3E180C691BB8A128002F2F9F /* ConvoViewController.swift in Sources */,
@@ -384,6 +380,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Assignement_2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "NA.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -395,6 +392,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Assignement_2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "NA.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
