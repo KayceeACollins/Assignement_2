@@ -1,5 +1,5 @@
 
-<strong> Assignment 1: DropBox</strong>
+<strong> Assignment 2: DropBox</strong>
 
 This is an iOS app demo application for assignment 1 - to use Xcode to implement the flow between the screens of an application.
 
