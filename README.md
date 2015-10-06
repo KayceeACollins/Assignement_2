@@ -1,7 +1,7 @@
 
 <strong> Assignment 2: DropBox</strong>
 
-This is an iOS app demo application for assignment 1 - to use Xcode to implement the flow between the screens of an application.
+The purpose of this homework is to leverage views, view properties, and events to create a high fidelity prototype that is difficult to distinguish from a production app.
 
 Time spent: 10 hours spent in total
 
